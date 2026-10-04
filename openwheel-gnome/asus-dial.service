@@ -1,0 +1,15 @@
+[Unit]
+Description=OpenWheel GNOME Application Controller
+Wants=openwheel-input.service
+After=graphical-session.target openwheel-input.service
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/asus-dial
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=10
+
+[Install]
+WantedBy=graphical-session.target

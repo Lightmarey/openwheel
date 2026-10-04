@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=ASUS Dial
+Comment=配置旋钮的应用、功能、快捷键与亮度目标
+Exec=asus-dial --settings
+Icon=input-dialpad-symbolic
+Terminal=false
+Categories=Settings;HardwareSettings;
+StartupWMClass=org.cachyos.AsusDial.Settings
+DBusActivatable=false

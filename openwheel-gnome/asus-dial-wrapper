@@ -1,0 +1,6 @@
+#!/bin/sh
+# Gvc ships with GNOME Shell. Keep its private search paths in this process only.
+GI_TYPELIB_PATH="/usr/lib/gnome-shell${GI_TYPELIB_PATH:+:$GI_TYPELIB_PATH}"
+LD_LIBRARY_PATH="/usr/lib/gnome-shell${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
+export GI_TYPELIB_PATH LD_LIBRARY_PATH
+exec /usr/bin/python3 "$HOME/.local/lib/asus-dial/main.py" "$@"

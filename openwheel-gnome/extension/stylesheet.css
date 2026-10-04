@@ -1,0 +1,23 @@
+.openwheel-ring { background-color: transparent; }
+.openwheel-center {
+    background-color: #464b55;
+    background-gradient-direction: vertical;
+    background-gradient-start: #414650;
+    background-gradient-end: #535965;
+    border: 1px solid rgba(228, 231, 240, 0.14);
+    border-radius: 111px;
+    box-shadow: 0 9px 16px 3px rgba(0, 0, 0, 0.36);
+    padding: 0;
+    color: #f1e3c5;
+}
+.openwheel-center:hover { border-color: rgba(241, 227, 197, 0.4); }
+.openwheel-center:active { border-color: #f1e3c5; }
+.openwheel-center-content { spacing: 9px; }
+.openwheel-handle { color: #f1e3c5; }
+.openwheel-title { font-size: 20px; font-weight: 500; color: #f1e3c5; }
+.openwheel-subtitle { font-size: 11px; color: #b9bbc5; }
+.openwheel-sector-icon { color: #d4d5dc; }
+.asus-dial-heading { font-weight: bold; font-size: 1.15em; }
+.asus-dial-caption { font-size: 0.85em; color: rgba(255,255,255,0.72); }
+.asus-dial-hud { spacing: 12px; padding: 20px; }
+.asus-dial-text { spacing: 8px; }

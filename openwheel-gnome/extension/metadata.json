@@ -1,0 +1,10 @@
+{
+  "uuid": "asus-dial@local.cachyos",
+  "name": "ASUS Dial",
+  "description": "OpenWheel GNOME 前端：可移动圆环、功能组、应用匹配及原生音量亮度条",
+  "shell-version": [
+    "50"
+  ],
+  "version": 3,
+  "settings-schema": "org.openwheel.gnome"
+}

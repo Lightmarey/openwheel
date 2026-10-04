@@ -1,0 +1,9 @@
+<schemalist>
+  <schema id="org.openwheel.gnome" path="/org/openwheel/gnome/">
+    <key name="menu-position" type="(dd)">
+      <default>(0.92, 0.82)</default>
+      <summary>Menu position within the focused monitor</summary>
+      <description>Horizontal and vertical fractions of the usable area. Drag the centre of the radial menu to change this position.</description>
+    </key>
+  </schema>
+</schemalist>
